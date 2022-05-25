@@ -8,6 +8,9 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/*.{h,m}"
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
+  s.authors       = { "KieQuang" => "kieuquang1110@gmail.com" }
+  s.homepage      = "https://github.com/KieQuang/blur-reactnative"
+  s.source        = { :git => "hhttps://github.com/KieQuang/blur-reactnative" }
   s.license       = "MIT"
   s.summary       = "Component implementation for UIVisualEffectView's blur and vibrancy effect."
 
